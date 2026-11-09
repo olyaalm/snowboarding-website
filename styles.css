@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #233b3d;
+    font-family: Georgia, serif;
+}
+
+a { color: #a63e30; }
+a:hover { color: #176f73; }
+
+.site-header {
+    background-color: #dcebe8;
+    border-bottom: 1px solid #9db8b2;
+    padding: 20px;
+    text-align: center;
+}
+
+.brand { font-size: 24px; font-weight: bold; text-decoration: none; }
+.brand span { font-size: 14px; color: #526b69; }
+nav { margin-top: 15px; }
+nav a { display: inline-block; margin: 5px 10px; font-weight: bold; }
+nav a.current { color: #233b3d; }
+
+.hero, .page-heading {
+    background-color: #e4efed;
+    padding: 35px 5%;
+}
+
+.hero-content, .content-width {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.eyebrow, .section-label, .discipline-number {
+    color: #a63e30;
+    font-weight: bold;
+}
+
+h1 { font-size: 38px; margin: 15px 0; }
+h2 { font-size: 32px; }
+h3 { font-size: 25px; }
+p { line-height: 1.6; }
+.hero-intro { font-size: 20px; }
+.hero-link, .text-link { font-weight: bold; }
+
+.story, .disciplines { padding: 40px 0; }
+.section-label { margin-bottom: 25px; }
+.personal-photo, .race-photo img {
+    display: block;
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.race-photo { margin: 0; padding: 20px; text-align: center; }
+.race-photo figcaption { color: #526b69; }
+.discipline { padding: 20px 0; border-bottom: 1px solid #9db8b2; }
+.discipline-number span { color: #526b69; }
+
+.contact-band, .chart-section {
+    background-color: #dcebe8;
+    padding: 30px 0;
+}
+
+.legend { padding-left: 25px; }
+.legend li { margin: 10px 0; }
+.swatch { display: inline-block; width: 12px; height: 12px; margin-right: 8px; }
+.gate { background-color: #cf4937; }
+.cross { background-color: #177c83; }
+#chart { width: 90%; max-width: 420px; margin: 20px auto; }
+#chart svg { width: 100%; height: auto; }
+.chart-center-number { font-size: 42px; fill: #233b3d; }
+.chart-center-label { font-size: 11px; fill: #233b3d; }
+
+footer { background-color: #233b3d; color: white; padding: 20px; text-align: center; }
+footer a { color: white; margin-left: 15px; }

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Disciplines | Olga Almazova</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">OLGA ALMAZOVA <span> / SNOWBOARDING</span></a>
+        <nav aria-label="Main navigation">
+            <a href="index.html">My story</a>
+            <a class="current" href="disciplines.html" aria-current="page">The disciplines</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="page-heading content-width">
+            <p class="eyebrow">02 / ON THE COURSE</p>
+            <h2>My snowboarding events</h2>
+            <p>I competed in slalom, giant slalom, and snowboard cross.</p>
+        </section>
+        <figure class="race-photo">
+            <img src="olga-snowboarding.jpg" alt="Olga holding her snowboard on a snowy slope">
+            <figcaption>Me with my snowboard.</figcaption>
+        </figure>
+
+        <section class="disciplines content-width">
+            <article class="discipline">
+                <div class="discipline-number">01 <span> / PRECISION</span></div>
+                <div><h3>Slalom</h3>
+                    <p>In slalom, snowboarders race through a course marked by gates. The gates are close together, so riders have to make quick turns and change edges often. The goal is to get down the course as fast as possible while passing through the gates correctly.</p>
+                    <p>It takes a lot of concentration because the next gate comes up quickly. You have to look ahead and keep your balance while turning. A mistake on one gate can make it harder to get into position for the next one.</p>
+                </div>
+            </article>
+            <article class="discipline">
+                <div class="discipline-number">02 <span> / FLOW</span></div>
+                <div><h3>Giant slalom</h3>
+                    <p>Giant slalom is also a race through gates, but the gates are generally farther apart than in slalom. The turns are longer, and riders have more space between them. The goal is still to follow the course and finish as quickly as possible.</p>
+                    <p>Even with more space between gates, choosing where to turn matters. Riders need to hold their edges and keep their speed through each turn. The course has a different rhythm from slalom, and I enjoyed getting to race both.</p>
+                </div>
+            </article>
+            <article class="discipline">
+                <div class="discipline-number">03 <span> / RACE</span></div>
+                <div><h3>Snowboard cross</h3>
+                    <p>In snowboard cross, several riders race on the same course at once. The course can include jumps, rollers, and banked turns. Riders need to stay in control while keeping their speed and paying attention to the people racing around them.</p>
+                    <p>Snowboard cross is usually considered a separate racing discipline from the alpine gate events. It was one of the three events I competed in, and it was different from racing through gates. The terrain and the other riders make each race a different experience.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="chart-section">
+            <div class="content-width chart-layout">
+                <div>
+                    <p class="eyebrow">THE BIG PICTURE</p>
+                    <h3>My three events</h3>
+                    <p>These are the three events I competed in. Each outer segment represents one discipline; the inner segments group them by event type.</p>
+                    <ul class="legend">
+                        <li><span class="swatch gate"></span> Alpine gate events: slalom and giant slalom</li>
+                        <li><span class="swatch cross"></span> Snowboard cross: terrain and racing</li>
+                    </ul>
+                </div>
+                <div id="chart" aria-label="Chart showing two alpine gate events and one snowboard cross event"></div>
+            </div>
+        </section>
+    </main>
+    <footer><span>OLGA ALMAZOVA</span><a href="index.html">&larr; Back to my story</a></footer>
+    <script src="chart.js"></script>
+</body>
+</html>
